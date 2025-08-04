@@ -66,9 +66,9 @@ public class ConsolaVista implements Vista {
         System.out.println("+-----------------------+------------------------------+");
         System.out.println("| A5 (FilaColumna)      | Descubrir celda              |");
         System.out.println("| M B7      	        | Marcar o desmarcar celda     |");
-        System.out.println("| G         			| Guardar partida              |");
-        System.out.println("| C        				| Cargar partida               |");
-        System.out.println("| Q         			| Salir del juego              |");
+        System.out.println("| G                     | Guardar partida              |");
+        System.out.println("| C                     | Cargar partida               |");
+        System.out.println("| Q                     | Salir del juego              |");
         System.out.println("+-----------------------+------------------------------+");
         System.out.print("Ingrese acción: ");
         return sc.nextLine().trim();
