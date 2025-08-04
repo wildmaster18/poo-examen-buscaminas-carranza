@@ -1,9 +1,9 @@
 package ups.buscaminas.modelo;
 
-/** Value-object inmutable (fila, columna) 0-based. */
+// Clase inmutable que representa una coordenada en el tablero del juego de Buscaminas
 public record Coordenada(int fila, int columna) implements java.io.Serializable {
 
-    /** Convierte una cadena tipo “A5” en Coordenada(0,4). */
+    // Constructor que valida las coordenadas
     public static Coordenada parse(String s) {
         s = s.trim().toUpperCase();
         if (!s.matches("[A-J](10|[1-9])"))
